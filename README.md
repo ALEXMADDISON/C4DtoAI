@@ -1,6 +1,33 @@
 
 ![airendercover](https://github.com/user-attachments/assets/2da6bf31-ce74-4092-a44b-1645aa64d32c)
 
+Installation and Usage:
+
+Pre-Installation:
+
+1) Install Stable Diffusion by AUTOMATIC (https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+2) Download the default MLL model or your own models that you plan to use.
+3) Open the C4DtoAI.py script and edit it to include the paths for the render import file and the save location for the edited image.
+4) Open Cinema 4D (version S24). Navigate to Extensions > User Scripts > Run Script, and select your script.
+
+Usage:
+
+1) Specify the texture you want (it is recommended to use PROMPT generators for Stable Diffusion).
+2) Enter negative keywords.
+3) Start the process and wait for the rendering to complete. The rendering progress will be displayed in the terminal window.
+
+F.A.Q
+
+Can I change IMG2IMG parameters?
+Yes, this can be done in the script file. Open it in a text editor and adjust the values.
+
+What if the script fails to start or shows a "server not found" error?
+Check that the IP address and port specified in the script match those shown in the terminal.
+
+Still not working?
+Use the --api flag when launching the launch.py script in SDwebUI.
+
+
 Установка и использование:
 
 Пред. установка:
