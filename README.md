@@ -5,6 +5,7 @@
 Installation and Usage:
 
 Pre-Installation:
+╭∩╮(︶︿︶)╭∩╮
 
 1) Install Stable Diffusion by AUTOMATIC (https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 2) Download the default MLL model or your own models that you plan to use.
