@@ -19,6 +19,12 @@ Usage:
 
 F.A.Q
 
+Need to install " Request " in Cinema4D envrioiment? 
+1- Go to Cinema 4D python's directory
+2- If "pip" is not installed yet, download the get-pip.py file from https://bootstrap.pypa.io/get-pip.py
+3- Install pip (command line): .\python get-pip.py 
+4- Install request : .\python -m pip install request
+
 Can I change IMG2IMG parameters?
 Yes, this can be done in the script file. Open it in a text editor and adjust the values.
 
